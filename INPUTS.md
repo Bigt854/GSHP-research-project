@@ -77,7 +77,7 @@ Every setting in the shared loop model (`shared_loop_model_v12.py` SETTINGS, as 
 | `SURPLUS_EVAP_APPROACH` | 3 K | Verified | By analogy with the HX approach (v5 register: R18 p.12) 
 | `SURPLUS_AIR_APPROACH` | 10 K | Verified | By analogy with russell1996 (v5 register) | 7 K in giunta2021/karampour2019 |
 | `SURPLUS_RAMP` | 1 K | Verified | danfossekc102 (v5 register: R20 p.7, 0.1 to 20 K) |  |
-| `SURPLUS_ASHP_COST_PER_KW` | £600/kW | Verified | beis2022nondom p. 16 (median £600/kW); cross-checks rhi2012, sweett2013 | Code updated 18 Nov (was £150). 
+| `SURPLUS_ASHP_COST_PER_KW` | £600/kW | Verified | beis2022nondom p. 16 (median £600/kW); cross-checks rhi2012, sweett2013 |  
 
 ## Gas comparator
 
@@ -103,7 +103,7 @@ Every setting in the shared loop model (`shared_loop_model_v12.py` SETTINGS, as 
 | `PIPE_PER_HOME_M` | 10 m | Modelling choice | group decision | Range 5 to 20 m in borehole-cost-data.md |
 | `FIELD_TO_STREET_M` | 50 m | Modelling choice | none | No source needed (group decision, 17 Nov 2026). 
 | `FIELD_PIPE_PER_BOREHOLE_M` | = spacing (10 m) | Modelling choice | 
-| `ALT_ASHP_COST_PER_KW` | £430/kW | Verified | efstratiadi2019 (v5 register: Table 3 p.20), cortella2021, sweett2013 | State the exchange rate and price year (2019 USD) |
+| `ALT_ASHP_COST_PER_KW` | £600/kW | Verified | beis2022nondom p. 16 (median £600/kW); cross-checks rhi2012, sweett2013 |
 | `Jaric HX cost 832·A^0.637, CEPCI_2018/CEPCI_2014` | 603.1 / 576.1 | Verified | safeground2023 (Paul's code) | Both registers lack the original Jaric paper |
 | `LIFE_HP` | 25 yr | Modelling choice | none | No source needed (group decision, 17 Nov 2026). Paul's code used 20 yr |
 | `LIFE_GROUND` | 60 yr | Verified | desnz2025note (Annex B), safeground2023 |  |
