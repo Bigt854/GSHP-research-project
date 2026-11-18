@@ -118,7 +118,7 @@ FIELD_PIPE_PER_BOREHOLE_M = BOREHOLE_SPACING  # m of in-field pipe per borehole 
 HP_COST_FIXED, HP_COST_PER_KW = 6114.0, 809.0      # installed heat pump £ = fixed + per kW
 TANK_COST_FIXED, TANK_COST_PER_L = 425.0, 1.16      # cylinder £ = fixed + per litre
 SURPLUS_ASHP_COST_PER_KW = 600.0  # surplus ASHP £ per kW of heat removed
-ALT_ASHP_COST_PER_KW = 430.0      # alternative large reverse ASHP £ per kW of heat rejected
+ALT_ASHP_COST_PER_KW = 600.0      # alternative large reverse ASHP £ per kW of heat rejected
 HX_U = 3000.0                     # heat exchanger overall U [W/m2/K] for sizing
 CEPCI_2018, CEPCI_2014 = 603.1, 576.1               # cost indices for the Jaric heat exchanger correlation
 # Asset lifetimes for the capital recovery factor CRF = i(1+i)^n / ((1+i)^n - 1)
